@@ -1,18 +1,29 @@
 *{
-    border: 0;
-    padding: 0;
-      font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-    font-style: normal;
+    margin: 0px;
+    padding:0px;
+     
 }
+
+
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+header{
+    max-width: 100%;
+}
+/* nav section */
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-       max-width: 100%;
-       padding: 0px 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+      
 }
+
 nav ul{
     display: flex;
     align-items: center;
@@ -35,6 +46,7 @@ nav button{
     font-size: 16px;
     font-weight: 600px;
     cursor: pointer;
+    border:none;
 }
 nav button:hover{
     background-color: #1d5c37;
@@ -43,4 +55,78 @@ nav button:hover{
 }
 nav a:hover{
     color:#469165;
+    font-size:18px;
+    
+}
+
+
+/* hero section */
+
+
+.hero{
+
+   width: 100%;
+    background: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+    
+}
+.hero h1{
+    font-size: 72px; 
+    color: white;
+}
+span h1{
+    margin-bottom: 16px;
+}
+.hero span{
+    color: #30B868;
+}
+.hero_content{
+
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ padding-top: 120px;
+ padding-bottom: 180px;
+}
+
+.hero_content p{
+    color: #FFFFFF;
+    margin-top: 16px;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.hero_btn button{
+border-radius: 4px;
+font-weight: 600;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+.hb_1{
+    background-color: #469165;
+    border: none;
+    padding: 18px 12px;
+}
+.hb_2{
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 16px;
+    padding: 16px 12px;
+}
+
+.hb_1:hover{
+    background-color: transparent;
+      border: 2px solid white;
+    color: rgb(180, 178, 178);
+      padding: 16px 12px;
+
+}
+.hb_2:hover{
+    background-color: #469165;
+    border: none;
+   color: rgb(252, 211, 149);
+    padding: 18px 12px;
 }
