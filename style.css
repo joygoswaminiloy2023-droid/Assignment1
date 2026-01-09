@@ -1,15 +1,17 @@
 *{
     margin: 0px;
     padding:0px;
-     
+     box-sizing: border-box;
 }
 
 
-.work-sans{
-  font-family: "Work Sans", sans-serif;
+.inter-tight{
+   font-family: "Inter Tight", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+
 }
+
 header{
     max-width: 100%;
 }
@@ -93,15 +95,13 @@ nav a:hover{
   color: #469165;
     height: 35px;
     width: 229px;
-    border-radius: 1000;
     background-color: white;
 }
 
-span h1{
-    margin-bottom: 16px;
-}
-.hero span h1{
+
+.hero span{
     color: #30B868;
+        margin-bottom: 16px;
 }
 .hero_content{
 
@@ -115,9 +115,10 @@ span h1{
 .hero_content p{
     color: #FFFFFF;
     margin-top: 16px;
-    line-height: 24px;
+    line-height: 36px;
     font-size: 18px;
     margin-bottom: 32px;
+    font-weight: 400px;
 }
 .hero_btn button{
 border-radius: 4px;
@@ -156,7 +157,7 @@ cursor: pointer;
 
 .notes_h{
    text-align: center;
-   padding-top: 60px;
+   padding-top: 80px;
 }
 .notes_h h1{
     font-size: 48px;
@@ -207,7 +208,7 @@ cursor: pointer;
 
 }
 .card_content h1{
-    color: black;
+    color:#001931;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
